@@ -43,27 +43,23 @@ like below
 
 ```json
 {
-  "audits": {
-    "css-bundle-size-report": {
-      id: 'css-bundle-size-report',
-      title: 'CSS Bundle Size',
-      description:
-       'The CSS bundle size report compares an ideal size of 1MB against the current CSS bundle size',
-      score: 1,
-      scoreDisplayMode: 'binary',
-      numericValue: 964441,
-      displayValue: '964441 bytes'
-    },
-    "js-bundle-size-report": {
-          id: 'js-bundle-size-report',
-          title: 'JS Bundle Size',
-          description:
-           'The JS bundle size report compares an ideal size of 1MB against the current JS bundle size',
+  "audits": [{
+      "css-bundle-size-report": {
+          title: 'CSS Bundle Size',
+          description:'The CSS bundle size report compares an ideal size of 1MB against the current CSS bundle size',
           score: 1,
           scoreDisplayMode: 'binary',
           numericValue: 964441,
-          displayValue: '964441 bytes'
+          displayValue: '964441 bytes'}
+      },
+      "js-bundle-size-report": {
+          title: 'JS Bundle Size',
+          description:'The JS bundle size report compares an ideal size of 1MB against the current JS bundle size',
+          score: 1,
+          scoreDisplayMode: 'binary',
+          numericValue: 964441,
+          displayValue: '964441 bytes'}
         }
-  }
+      ]
 }
 ```
