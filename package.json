@@ -2,6 +2,11 @@
   "name": "lighthouse-plugin-bundle-size",
   "main": "lib/plugin.js",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianstanley/lighthouse-bundle-size-plugin.git"
+  },
+  "types": "lib/index.d.ts",
   "peerDependencies": {
     "lighthouse": "^5.6.0"
   },
