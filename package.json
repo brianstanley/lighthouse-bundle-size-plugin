@@ -8,11 +8,11 @@
   },
   "types": "lib/index.d.ts",
   "peerDependencies": {
-    "lighthouse": "^5.6.0"
+    "lighthouse": "^9.6.7"
   },
   "files": ["lib/**/*"],
   "devDependencies": {
-    "lighthouse": "^5.6.0",
+    "lighthouse": "^9.6.7",
     "path": "^0.12.7",
     "ts-node": "^7.0.0"
   },
